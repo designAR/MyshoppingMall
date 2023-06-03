@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+	<servlet>
+		<servlet-name>admin</servlet-name>
+		<servlet-class>myshop.MyShopServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>admin</servlet-name>
+		<url-pattern>*.do</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>mall</servlet-name>
+		<servlet-class>myshop.MyShopMallServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>mall</servlet-name>
+		<url-pattern>*.mall</url-pattern>
+	</servlet-mapping>
+</web-app>
